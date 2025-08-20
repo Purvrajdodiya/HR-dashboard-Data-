@@ -1,21 +1,42 @@
-HR Analytics on Employee Data
-This project analyzes a comprehensive HR dataset to understand the factors driving employee attrition and other key workforce metrics.
+# 📊 HR Attrition Analysis
 
-Resources
+## Table of Contents
+- [Project Overview](#-project-overview)
+- [Data Sources](#-data-sources)
+- [Tools](#️-tools)
+- [Exploratory Data Analysis](#-exploratory-data-analysis)
+- [Results/Findings](#-resultsfindings)
+- [Recommendations](#-recommendations)
 
-Dataset (HR Data.xlsx - HR data.csv): Contains detailed and anonymized employee data, including demographics, job roles, satisfaction levels, performance ratings, and compensation.
+## 🎯 Project Overview
+This project analyzes employee data to understand the drivers of attrition. The goal is to identify patterns related to demographics, job satisfaction, and departmental trends to help develop effective employee retention strategies.
 
+## 💾 Data Sources
+The analysis is based on the `HR Data.csv` file, which contains 1,470 employee records with attributes like age, department, job role, satisfaction scores, and attrition status.
 
-Presentation backgrounds (HR background.pptx.pdf): A set of professional slides for presenting findings.
+## 🛠️ Tools
+*   **Excel:** For initial data cleaning and preparation.
+*   **Tableau:** For creating an interactive dashboard and visualizing the data.
 
-Analysis Focus
-The dataset enables a deep dive into several HR areas:
+## 🔍 Exploratory Data Analysis
+EDA focused on answering key questions to uncover attrition patterns:
 
-Attrition Analysis: Identifying key reasons why employees leave.
+*   What is the overall attrition rate?
+*   Which department has the highest number of employees leaving?
+*   Is there a correlation between age, gender, or job role and attrition?
+*   How does job satisfaction impact an employee's decision to leave?
 
-Satisfaction & Performance: Correlating job satisfaction and performance with employee retention.
+## 📈 Results/Findings
+The analysis revealed several key insights:
 
-Compensation Structure: Analyzing salary and hike percentages across roles.
+*   The overall attrition rate for the company stands at **16.1%**.
+*   The **Research & Development** department has the highest number of employees leaving, followed by **Sales**.
+*   Attrition is most common among employees in the **25-34 age group**.
+*   Employees working **overtime** are significantly more likely to leave the company.
 
-How to Use
-Use the CSV data with tools like Power BI, Tableau, or Python to build your own analytics dashboard. The provided PDF can be used for presentation backgrounds.
+## ✅ Recommendations
+Based on the findings, the following actions are recommended:
+
+*   Conduct targeted exit interviews within the R&D department to understand specific pain points.
+*   Review workload and overtime policies, especially for younger employees, to improve work-life balance.
+*   Develop tailored engagement and development programs for high-attrition job roles like Laboratory Technicians and Sales Executives.
